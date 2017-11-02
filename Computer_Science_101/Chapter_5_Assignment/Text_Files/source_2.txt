@@ -1,0 +1,84 @@
+#include <iostream>
+
+using namespace std;
+
+
+void user_info() {
+	cout << "\tAuthor: James Abreu." << endl;
+	cout << "\t" << __DATE__ << endl;
+	cout << "\t" << __TIMESTAMP__ << endl;
+	cout << endl;
+}
+
+int main() {
+	user_info();
+	cout << "Average Rain Fall Calculator." << endl;
+
+	/*
+	 * ========================================================================================
+	 */
+	take_year:
+	cout << "Enter the number of years worth of information: ";
+	unsigned year{1};
+	cin >> year;
+
+	if (year < 1) {
+		if (year == 0) {
+			cout << "No data entries." << endl;
+			return 0;
+		} else if (year < 0) {
+			cout << "The year cannot be less than zero. " << endl;
+			cout << "Try again." << endl;
+			goto take_year;
+		}
+	}
+
+	string current_month[12]{
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December"
+	};
+
+	unsigned length_of_year{12};
+	float total_rain{0};
+	unsigned month{12};
+	unsigned index{0};
+	for (unsigned y = 1; y <= year; y++) {
+		for (unsigned m = 1; m <= month; m++) {
+			cout << "Enter the total number of rain in month: " << current_month[index] << endl;
+			float rain_in_inches{0};
+			cin >> rain_in_inches;
+
+			if (index == length_of_year) {
+				index = 0;
+			}
+
+			if (rain_in_inches < 0) {
+				cout << "Rain cannot be less than zero" << endl;
+				return -1;
+			}
+
+			total_rain += rain_in_inches;
+			index++;
+		}
+
+		if (y == year) {
+			break;
+		}
+	}
+
+	cout << "Months: " << month * year << endl;
+	cout << "Total Rain: " << total_rain << endl;
+	cout << "Average per month: " << total_rain / month << endl;
+
+	return 0;
+}

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/James Smith/Google Drive/Fall 2017/Computer Science 101/Chapter_5_Assignment/main.cpp
+iostream
+-
+iomanip
+-
+cmath
+-
+string
+-
+fstream
+-
+

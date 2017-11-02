@@ -1,0 +1,15 @@
+cout << "Enter an integer representing the sides of a square: ";
+	unsigned size {1};
+	cin >> size;
+
+	if (size < 1){
+		cout << "The size cannot be less than 1" << endl;
+		return -1;
+	}
+
+	for (unsigned i = 1; i <= size; i++){
+		for (unsigned j = 1; j <= size; j++){
+			cout << "X" << " ";
+		}
+		cout << endl;
+	}

@@ -1,0 +1,44 @@
+int main() {
+	user_info();
+	map <string, float>items;
+	float monthly_budget{0};
+	cout << "Enter Monthly Budget: ";
+	cin >> monthly_budget;
+
+	float total{0};
+	float expenses{0};
+	string item_name;
+	cout << "Enter -1 to exit" << endl;
+	int current_item {0};
+	do {
+		cout << "Enter expense: ";
+		cin >> expenses;
+		if (expenses == -1) { continue; }
+		cout << "Name of product: ";
+		cin.ignore();
+		getline(cin, item_name);
+		items[item_name] = expenses;
+		total += expenses;
+	} while (expenses != -1);
+
+	float diference = abs(total - monthly_budget);
+	if (total < monthly_budget){
+		cout << "Your expenses were less than the monthly budget by: ";
+	}else if (total > monthly_budget){
+		cout << "Your expenses were more than the monthly budget by: ";
+	}else {
+		cout << "Your expenses break even: ";
+	}
+
+	cout << "$" << setprecision(2) << fixed << diference << endl;
+	cout << "Total Expenses: $" << setprecision(2) << fixed << total << endl;
+	cout << "Monthly budget: $" << setprecision(2) << fixed << monthly_budget << endl;
+	cout << "Budget Left: $" << setprecision(2) << fixed << monthly_budget - total << endl;
+
+//	Range base loops
+	cout << endl << "Items: " << endl;
+	for(const auto& item: items){
+		cout << item.first << ": $" << item.second << endl;
+	}
+	return 0;
+}

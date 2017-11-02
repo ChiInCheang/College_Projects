@@ -1,0 +1,4 @@
+"C:\Users\James Smith\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.4343.16\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\James Smith\Google Drive\Fall 2017\Computer Science 101\Chapter_5_Assignment"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/James Smith/Google Drive/Fall 2017/Computer Science 101/Chapter_5_Assignment/cmake-build-debug
