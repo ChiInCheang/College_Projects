@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/James Smith/Google Drive/Fall 2017/Computer Science 101/Chapter_5_Assignment
+# Install script for directory: C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Chapter_5_Assignment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/James Smith/Google Drive/Fall 2017/Computer Science 101/Chapter_5_Assignment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Chapter_5_Assignment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
