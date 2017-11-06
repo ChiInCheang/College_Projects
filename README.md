@@ -2,4 +2,4 @@
 
 ## By James Abreu
 
-> This is the project directory for the 4 years of college worth of projects I will or have done in Manhattan college.
+<p> This is the repository for the 4 years worth of projects for the university.</p>
