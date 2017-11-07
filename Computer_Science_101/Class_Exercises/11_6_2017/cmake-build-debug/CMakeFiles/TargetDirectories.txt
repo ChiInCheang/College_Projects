@@ -1,0 +1,3 @@
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Class_Exercises/11_6_2017/cmake-build-debug/CMakeFiles/11_6_2017.dir
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Class_Exercises/11_6_2017/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Class_Exercises/11_6_2017/cmake-build-debug/CMakeFiles/rebuild_cache.dir
