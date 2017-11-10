@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Chapter-6-Assingment/Source-Files/main.cpp
+iostream
+-
+fstream
+-
+
