@@ -1,0 +1,3 @@
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Ch-6-Folder/Chapter-6-Assingment/cmake-build-debug/CMakeFiles/Chapter_6_Assingment.dir
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Ch-6-Folder/Chapter-6-Assingment/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/James Smith/Desktop/Manhattan_College/Computer_Science_101/Ch-6-Folder/Chapter-6-Assingment/cmake-build-debug/CMakeFiles/rebuild_cache.dir

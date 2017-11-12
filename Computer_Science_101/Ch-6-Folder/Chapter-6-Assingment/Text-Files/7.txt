@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	float num, positive_num{0}, negative_num{0}, sum{0}, average{0};
+	cout << "Note: Enter 0 to end the program." << endl;
+	cout << "Enter the numbers you want to add: ";
+	while (cin >> num) {
+		if (num == 0) {
+			cout << "Program ended. " << endl;
+			break;
+		}
+		if (num > 0) positive_num++;
+		if (num < 0) negative_num++;
+		sum += num;
+	}
+
+	cout << "Positive numbers: " << positive_num << endl;
+	cout << "Negative numbers: " << negative_num << endl;
+	cout << "Total: " << sum << endl;
+	average = sum / (positive_num + negative_num);
+	cout << "Average: " << average << endl;
+	return 0;
+}

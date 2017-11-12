@@ -1,0 +1,58 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+void create_file();
+void output_data();
+void display_data();
+
+const string FILE_PATH = "..\\Text-Files\\number-file.txt";
+
+int main() {
+	create_file();
+	output_data();
+	display_data();
+	return 0;
+}
+
+void create_file() {
+	ofstream new_file{FILE_PATH};
+	if (!new_file.is_open()){
+		cout << "File not opened" << endl;
+		exit(EXIT_FAILURE);
+	}
+	new_file.close();
+}
+
+void output_data() {
+	ofstream output_file {FILE_PATH};
+	int count{1};
+	cout << "Saving data to file" << endl;
+	for (int x = 1; x <= 100; x++) {
+		output_file << x << endl;
+		if (x == 100) { break; }
+		count++;
+	}
+	cout << "Data saved: " << sizeof(count) << endl;
+	output_file.close();
+}
+
+void display_data() {
+	ifstream input_file{FILE_PATH};
+	int sum {0};
+	if (!input_file.is_open()) {
+		cout << "The file could not be opened" << endl;
+		exit(EXIT_FAILURE);
+	}
+	cout << "\n Displaying data: " << endl;
+	string value;
+	while (input_file >> value) {
+		cout << value << " ";
+		sum += stoi(value);
+	}
+	cout << "\nTotal is: " << sum << endl;
+
+	input_file.close();
+}
+
