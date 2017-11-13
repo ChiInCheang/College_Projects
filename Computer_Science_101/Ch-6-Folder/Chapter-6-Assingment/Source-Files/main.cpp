@@ -3,18 +3,18 @@
 
 const unsigned int ARR_SIZE = 10;
 
-void get_sales(std::string div_repo[], double sales_repo[], unsigned &div_num) {
+void get_sales(std::string division_repo[], double quarter_profits_repo[], unsigned &division_count) {
 
 	std::cout << "Note: The size of the Array is 10" << std::endl;
 	std::cout << "How many divisions will be saved?: ";
-	std::cin >> div_num;
+	std::cin >> division_count;
 
-	if (div_num < 0) {
-		if (div_num == 0) {
+	if (division_count <= 0 || division_count > ARR_SIZE) {
+		if (division_count == 0) {
 			std::cout << "You have entered a value of 0" << std::endl;
 			exit(EXIT_SUCCESS);
 		} else {
-			std::cout << "The value entered cannot be less than 0" << std::endl;
+			std::cout << "The value entered cannot be evaluated." << std::endl;
 			exit(EXIT_FAILURE);
 		}
 	} else {
@@ -23,7 +23,7 @@ void get_sales(std::string div_repo[], double sales_repo[], unsigned &div_num) {
 		std::string div_name;
 		double div_sales{0};
 
-		while (counter <= div_num) {
+		while (counter <= division_count) {
 
 			std::cin.ignore();
 			std::cout << "Enter the name of the division: " << counter;
@@ -49,8 +49,8 @@ void get_sales(std::string div_repo[], double sales_repo[], unsigned &div_num) {
 				goto enter_sales;
 			}
 
-			div_repo[counter - 1] = div_name;
-			sales_repo[counter - 1] = div_sales;
+			division_repo[counter - 1] = div_name;
+			quarter_profits_repo[counter - 1] = div_sales;
 			counter++;
 		}
 	}
