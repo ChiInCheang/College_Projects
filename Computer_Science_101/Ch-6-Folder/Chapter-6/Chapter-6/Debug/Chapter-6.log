@@ -1,9 +1,2 @@
 ﻿  Source.cpp
-c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(7): error C2234: 'div_repo': arrays of references are illegal
-c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(7): error C2234: 'sales_repo': arrays of references are illegal
-c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(23): error C2131: expression did not evaluate to a constant
-  c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(23): note: failure was caused by non-constant arguments or reference to a non-constant symbol
-  c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(23): note: see usage of 'ARR_SIZE'
-c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(24): error C2131: expression did not evaluate to a constant
-  c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(24): note: failure was caused by non-constant arguments or reference to a non-constant symbol
-  c:\users\james smith\desktop\manhattan_college\computer_science_101\ch-6-folder\chapter-6\chapter-6\source.cpp(24): note: see usage of 'ARR_SIZE'
+  Chapter-6.vcxproj -> C:\Users\James Smith\Desktop\Manhattan_College\Computer_Science_101\Ch-6-Folder\Chapter-6\Debug\Chapter-6.exe

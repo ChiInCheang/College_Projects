@@ -24,12 +24,12 @@ void get_sales(std::string division_repo[], double quarter_profits_repo[], unsig
 		double div_sales{0};
 
 		while (counter <= division_count) {
-
 			std::cin.ignore();
-			std::cout << "Enter the name of the division: " << counter;
+			std::cout << "Enter the name of the division:  " << counter;
 			std::getline(std::cin, div_name);
+			std::cout << "\r";
 			enter_sales:
-			std::cout << "Enter the sale's value of the division: " << counter;
+			std::cout << "Enter the sale's value of the division:  " << counter;
 			std::cin >> div_sales;
 
 			if (div_sales < 0) {
@@ -82,7 +82,7 @@ void get_highest(std::string divs[], double div_sales[], unsigned list_size) {
 			}
 
 			if (index == list_size - 1) {
-				printf("Highest Grossing Division: %s: \t $%.f \n", divs[index].c_str(), div_sales[index]);
+				printf("Highest Grossing Division: %s: \t\n $%.f \n", divs[index].c_str(), div_sales[index]);
 			}
 		}
 
