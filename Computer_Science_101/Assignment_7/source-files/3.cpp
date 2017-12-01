@@ -10,11 +10,11 @@ int get_emp(){
         if (emp_count <= 0) {
                 if (emp_count == 0) {
                         cout << "You have enter no employees" << endl;
-                        return 0;
+                        exit(1);
                 }
                 else {
                         cout << "The count of employees cannot be less than 0. " << endl;
-                        return 0;
+                        exit(1);
                 }
         }
         return emp_count;

@@ -48,10 +48,10 @@ RM = /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7
+CMAKE_SOURCE_DIR = /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/cmake-build-debug/CMakeFiles /home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-debug/CMakeFiles /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment_7
+# Target rules for targets named paper_scissor_rock_game
 
 # Build rule for target.
-Assignment_7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Assignment_7
-.PHONY : Assignment_7
+paper_scissor_rock_game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 paper_scissor_rock_game
+.PHONY : paper_scissor_rock_game
 
 # fast build rule for target.
-Assignment_7/fast:
-	$(MAKE) -f CMakeFiles/Assignment_7.dir/build.make CMakeFiles/Assignment_7.dir/build
-.PHONY : Assignment_7/fast
+paper_scissor_rock_game/fast:
+	$(MAKE) -f CMakeFiles/paper_scissor_rock_game.dir/build.make CMakeFiles/paper_scissor_rock_game.dir/build
+.PHONY : paper_scissor_rock_game/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Assignment_7.dir/build.make CMakeFiles/Assignment_7.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/paper_scissor_rock_game.dir/build.make CMakeFiles/paper_scissor_rock_game.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Assignment_7.dir/build.make CMakeFiles/Assignment_7.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/paper_scissor_rock_game.dir/build.make CMakeFiles/paper_scissor_rock_game.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Assignment_7.dir/build.make CMakeFiles/Assignment_7.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/paper_scissor_rock_game.dir/build.make CMakeFiles/paper_scissor_rock_game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Assignment_7"
+	@echo "... paper_scissor_rock_game"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
