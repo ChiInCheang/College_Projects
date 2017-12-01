@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int comp_guess() {
+int comp_choice() {
         random_device device;                                  // The true random seed
         uniform_int_distribution<int> distribution(1, 3);      // Return an integer value between 1 and 3
         int choice = distribution(device);                     // Saved value returned by the generator
@@ -12,7 +12,7 @@ int comp_guess() {
 }
 
 int process_player_input(string &choice) {
-        int ichoice = 0;
+        int ichoice = 1;
         if (choice == "rock" || choice == "Rock") {
                 ichoice = 1;
         } else if (choice == "paper" || choice == "Paper") {
@@ -27,8 +27,8 @@ int process_player_input(string &choice) {
 // This is a constant container that gives a name to a value
 enum CHOICE {
         rock = 1,
-        paper,  //2
-        scissor //3
+        paper = 2,
+        scissor = 3
 };
 
 
@@ -56,6 +56,7 @@ void display_hand(int choice) {
                         cout << "\t/\\____" << endl;
                         cout << "\t|   __/ " << endl;
                         cout << "\t\\___\\" << endl;
+                        break;
                 }
 
                 default: {
@@ -66,25 +67,27 @@ void display_hand(int choice) {
 }
 
 
-string compare_hands(int p_choice, int c_choice) {
-        cout << endl;
+//TODO Fix the comparing function
+// The second parameter is a function pointer and the empty parenthesis at the end means the expected parameters.
+string compare_hands(int p_choice, int (*func_p)()) {
         string comparison;
+
         // Cases where the hands are the same
-        if (p_choice == CHOICE::rock && c_choice == CHOICE::rock) {
+        if (p_choice == func_p()) {
                 comparison = "Is a draw";
-        } else if (p_choice == CHOICE::paper && c_choice == CHOICE::paper) {
-                comparison = "Is a draw";
-        } else if (p_choice == CHOICE::scissor && c_choice == CHOICE::scissor) {
-                comparison = "Is a draw";
-        }
-                // Cases where the hands are opposites
-        else if (p_choice == CHOICE::rock && c_choice == CHOICE::scissor ||
-                 p_choice == CHOICE::paper && c_choice == CHOICE::rock) {
+        } else if (p_choice == (int) CHOICE::rock && func_p() == (int) CHOICE::scissor) {
                 comparison = "Player wins";
-        } else {
+        } else if (p_choice == (int) CHOICE::paper && func_p() == (int) CHOICE::rock) {
+                cout << "Player win" << endl;
+        } else if (p_choice == (int) CHOICE::scissor && func_p() == (int) CHOICE::paper) {
+                cout << "Player win" << endl;
+        } else if (p_choice == (int) CHOICE::scissor && func_p() == (int) CHOICE::rock) {
+                comparison = "Computer wins";
+        } else if (p_choice == (int) CHOICE::rock && func_p() == (int) CHOICE::paper) {
+                cout << "Computer wins" << endl;
+        } else if (p_choice == (int) CHOICE::paper && func_p() == (int) CHOICE::scissor) {
                 cout << "Computer wins" << endl;
         }
-
 
         return comparison;
 }
@@ -95,6 +98,8 @@ void declare_winner(string &hand) {
 }
 
 int main() {
+
+        cout << "Options:\t rock | paper | scissor" << endl;
         cout << "Enter \'Play\' to play " << endl;
         string choice;
         getline(cin, choice);
@@ -109,7 +114,6 @@ int main() {
         // Start game
         take_hand:
         cout << "Enter your choice: ";
-        choice.empty();
         getline(cin, choice);
 
         // Handle choice of the player
@@ -126,7 +130,7 @@ int main() {
 
         // Display the computer choice
         cout << "Computer Choice:: " << endl;
-        display_hand(comp_guess());
+        display_hand(comp_choice());
 
         // Display the player's hand
         cout << "\n\nPlayer's hand:: " << endl;
@@ -134,13 +138,12 @@ int main() {
 
         // Compare the hands
         cout << endl;
-        string winning_hand{compare_hands(process_player_input(choice), comp_guess())};
+        string winning_hand{compare_hands(process_player_input(choice), &comp_choice)};
         declare_winner(winning_hand);
 
-//        Ask the user to play again
+        // Ask the user to play again
         cout << endl;
         cout << "Would you like to play again?";
-        choice.empty();
         getline(cin, choice);
         while (!(choice == "yes" || choice == "Yes" || choice == "No" || choice == "no")) {
                 cout << "Invalid input" << endl;
@@ -155,9 +158,5 @@ int main() {
                 cout << endl << "Game has ended" << endl;
         }
 
-
-        cout << endl << "Press any key to continue: " << endl;
-        cin.ignore();
-        cin.get();
         return 0;
 }
