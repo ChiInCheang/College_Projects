@@ -1,10 +1,9 @@
 #include <iostream>
 #include <random>
-#include <string>
 
 using namespace std;
 
-void creators_info(){
+void creators_info() {
         cout << __TIMESTAMP__ << endl;
         cout << "James Smith && ";
         cout << "Chin " << endl;
@@ -17,9 +16,9 @@ enum CHOICE {
         scissor = 3
 };
 
-struct game_controller_struct {
+struct game_controller {
 
-        game_controller_struct() = default;
+        game_controller() = default;
 
 /*
  * Static variable declaration (Meaning
@@ -33,10 +32,10 @@ struct game_controller_struct {
 };
 
 // Static variable value definition (Now the variable exist and the compiler linker can find it).
-int game_controller_struct::c_score = 0;
-int game_controller_struct::p_score = 0;
-bool game_controller_struct::p_wins = false;
-bool game_controller_struct::c_wins = false;
+int game_controller::c_score = 0;
+int game_controller::p_score = 0;
+bool game_controller::p_wins = false;
+bool game_controller::c_wins = false;
 
 // Display the game title
 void display_tittle() {
@@ -55,7 +54,8 @@ void display_tittle() {
 int comp_choice() {
         random_device device;
         uniform_int_distribution<int> distribution(1, 3);
-        return distribution(device);
+        int choice = distribution(device);
+        return choice;
 }
 
 
@@ -83,31 +83,31 @@ void keep_score() {
          * to false                                                                     =
          * ==============================================================================
          */
-        if (game_controller_struct::p_wins) {
-                cout << "Player_Score = " << ++game_controller_struct::p_score << endl;
-                game_controller_struct::p_wins = !game_controller_struct::p_wins;
+        if (game_controller::p_wins) {
+                cout << "Player_Score = " << ++game_controller::p_score << endl;
+                game_controller::p_wins = !game_controller::p_wins;
         }
-        if (game_controller_struct::c_wins) {
-                cout << "Computer_Score = " << ++game_controller_struct::c_score << endl;
-                game_controller_struct::c_wins = !game_controller_struct::c_wins;
+        if (game_controller::c_wins) {
+                cout << "Computer_Score = " << ++game_controller::c_score << endl;
+                game_controller::c_wins = !game_controller::c_wins;
         }
 }
 
-
-//TODO: Find the reason for this block to not return the expected value
 // Return the winning hand of the current game.
-string claim_winner(int p_choice, int c_choice) {
+string claim_winner(int p_choice, int (*c_choice)()) {
         string comparison;
 
-        if (p_choice == c_choice) {
+        cout << endl << p_choice << " | " << c_choice() << endl;
+
+        if (p_choice == c_choice()) {
                 comparison = "Tied";
-        } else if (p_choice == (int) CHOICE::paper && c_choice == (int) CHOICE::rock ||
-                   (p_choice == (int) CHOICE::rock && c_choice == (int) CHOICE::scissor) ||
-                   (p_choice == (int) CHOICE::scissor && c_choice == (int) CHOICE::paper)) {
+        } else if (p_choice == (int) CHOICE::paper && c_choice() == (int) CHOICE::rock ||
+                   (p_choice == (int) CHOICE::rock && c_choice() == (int) CHOICE::scissor) ||
+                   (p_choice == (int) CHOICE::scissor && c_choice() == (int) CHOICE::paper)) {
                 comparison = "Player Wins";
-                game_controller_struct::p_wins = true;
+                game_controller::p_wins = true;
         } else {
-                game_controller_struct::c_wins = true;
+                game_controller::c_wins = true;
                 comparison = "Computer Wins";
         }
 
@@ -118,8 +118,8 @@ string claim_winner(int p_choice, int c_choice) {
 
 // The stats to be display at the end of the game.
 void end_game_stats() {
-        cout << "Player_Score: " << game_controller_struct::p_score << endl;
-        cout << "Computer_Score: " << game_controller_struct::c_score << endl;
+        cout << "Player_Score: " << game_controller::p_score << endl;
+        cout << "Computer_Score: " << game_controller::c_score << endl;
 }
 
 // Display the hand equivalent to the int value of the hands
@@ -164,55 +164,56 @@ int main() {
         display_tittle();
         cout << "Options:\t rock | paper | scissor" << endl;
         cout << "Enter \'Play\' to play " << endl;
-        string choice;
-        getline(cin, choice);
+        string player_choice;
+        getline(cin, player_choice);
 
         // Handle wrong input
-        while (!(choice == "Play" || choice == "play")) {
+        while (!(player_choice == "Play" || player_choice == "play")) {
                 cout << "Invalid input" << endl;
                 cout << "Try again" << endl;
-                getline(cin, choice);
+                getline(cin, player_choice);
         }
 
         // Start game
         take_hand:
-        cout << "Enter your choice: ";
-        getline(cin, choice);
+        cout << "Enter your player_choice: ";
+        getline(cin, player_choice);
 
-        // Handle choice of the player
-        while (!(choice == "rock" || choice == "Rock" ||
-                 choice == "paper" || choice == "Paper" ||
-                 choice == "scissor" || choice == "Scissor")) {
+        // Handle player_choice of the player
+        while (!(player_choice == "rock" || player_choice == "Rock" ||
+                 player_choice == "paper" || player_choice == "Paper" ||
+                 player_choice == "scissor" || player_choice == "Scissor")) {
 
                 cout << "Invalid input" << endl;
                 cout << "Try again:  " << endl;
-                getline(cin, choice);
+                getline(cin, player_choice);
         }
 
-        // Display the computer choice
+        // Display the computer player_choice
         cout << "Computer_choice:: " << endl;
         display_hand(comp_choice());
 
         // Display the player's hand
         cout << "\n\nPlayer_hand:: " << endl;
-        display_hand(process_player_input(choice));
+        display_hand(process_player_input(player_choice));
 
         // Compare the hands
         cout << endl;
-        cout << claim_winner(process_player_input(choice), comp_choice());
+        cout << claim_winner(process_player_input(player_choice), comp_choice);
 
         // Ask the user to play again
         cout << endl;
         cout << "Would you like to play again?";
-        getline(cin, choice);
-        while (!(choice == "yes" || choice == "Yes" || choice == "No" || choice == "no")) {
+        getline(cin, player_choice);
+        while (!(player_choice == "yes" || player_choice == "Yes" ||
+                 player_choice == "No" || player_choice == "no")) {
                 cout << "Invalid input" << endl;
                 cout << "Try again" << endl;
-                getline(cin, choice);
+                getline(cin, player_choice);
         }
 
         // Check if the player wants to play again
-        if (choice == "yes" || choice == "Yes") {
+        if (player_choice == "yes" || player_choice == "Yes") {
                 goto take_hand;
         } else {
                 cout << endl << "Game has ended" << endl;

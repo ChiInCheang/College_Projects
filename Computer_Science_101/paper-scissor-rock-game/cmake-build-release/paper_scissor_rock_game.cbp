@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="paper_scissor_rock_game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paper_scissor_rock_game">
+				<Option output="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/paper_scissor_rock_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 paper_scissor_rock_game"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="paper_scissor_rock_game/fast">
+				<Option output="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/paper_scissor_rock_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 paper_scissor_rock_game/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/main.cpp">
+			<Option target="paper_scissor_rock_game"/>
+		</Unit>
+		<Unit filename="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

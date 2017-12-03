@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/paper_scissor_rock_game.dir/main.cpp.o  -o paper_scissor_rock_game 
