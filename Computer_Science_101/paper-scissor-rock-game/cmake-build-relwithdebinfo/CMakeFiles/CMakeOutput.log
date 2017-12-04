@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/3.8.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/3.9.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0e0fb/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_0e0fb.dir/build.make CMakeFiles/cmTC_0e0fb.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_2980c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2980c.dir/build.make CMakeFiles/cmTC_2980c.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e0fb.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0e0fb.dir/testCCompiler.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0e0fb
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e0fb.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0e0fb.dir/testCCompiler.c.o  -o cmTC_0e0fb 
+Building C object CMakeFiles/cmTC_2980c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2980c.dir/testCCompiler.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2980c
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2980c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2980c.dir/testCCompiler.c.o  -o cmTC_2980c 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3526d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3526d.dir/build.make CMakeFiles/cmTC_3526d.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_74491/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_74491.dir/build.make CMakeFiles/cmTC_74491.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o   -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3526d
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3526d.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o  -o cmTC_3526d 
+Building C object CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o   -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_74491
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74491.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o  -o cmTC_74491 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.5 (SUSE Linux) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3526d' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3526d /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_74491' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_74491 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_3526d/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_3526d.dir/build.make CMakeFiles/cmTC_3526d.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_74491/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_74491.dir/build.make CMakeFiles/cmTC_74491.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o   -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3526d]
-  ignore line: [/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3526d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o  -o cmTC_3526d ]
+  ignore line: [Building C object CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o   -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_74491]
+  ignore line: [/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74491.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o  -o cmTC_74491 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 (SUSE Linux) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3526d' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3526d /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_74491' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_74491 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -95,7 +95,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3526d] ==> ignore
+    arg [cmTC_74491] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
@@ -105,7 +105,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
-    arg [CMakeFiles/cmTC_3526d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_74491.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -117,17 +117,13 @@ Parsed C implicit link information from above output:
     arg [--no-as-needed] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
-  implicit libs: [c]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
   implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
   implicit fwks: []
 
@@ -137,14 +133,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1a2c0/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1a2c0.dir/build.make CMakeFiles/cmTC_1a2c0.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_3c69c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3c69c.dir/build.make CMakeFiles/cmTC_3c69c.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a2c0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1a2c0.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1a2c0
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a2c0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_1a2c0.dir/feature_tests.c.o  -o cmTC_1a2c0 
+Building C object CMakeFiles/cmTC_3c69c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3c69c.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3c69c
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c69c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3c69c.dir/feature_tests.c.o  -o cmTC_3c69c 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
@@ -157,14 +153,14 @@ gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Compute
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9ecba/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9ecba.dir/build.make CMakeFiles/cmTC_9ecba.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_cbc5f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cbc5f.dir/build.make CMakeFiles/cmTC_cbc5f.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ecba.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9ecba.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9ecba
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ecba.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_9ecba.dir/feature_tests.c.o  -o cmTC_9ecba 
+Building C object CMakeFiles/cmTC_cbc5f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_cbc5f.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cbc5f
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbc5f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_cbc5f.dir/feature_tests.c.o  -o cmTC_cbc5f 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
@@ -177,14 +173,14 @@ gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Compute
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f26ba/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f26ba.dir/build.make CMakeFiles/cmTC_f26ba.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_faeec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_faeec.dir/build.make CMakeFiles/cmTC_faeec.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f26ba.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f26ba.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f26ba
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f26ba.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f26ba.dir/feature_tests.c.o  -o cmTC_f26ba 
+Building C object CMakeFiles/cmTC_faeec.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_faeec.dir/feature_tests.c.o   -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_faeec
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faeec.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_faeec.dir/feature_tests.c.o  -o cmTC_faeec 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
@@ -195,28 +191,28 @@ gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Compute
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c8644/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c8644.dir/build.make CMakeFiles/cmTC_c8644.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_08495/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_08495.dir/build.make CMakeFiles/cmTC_08495.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8644.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c8644.dir/testCXXCompiler.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c8644
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8644.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c8644.dir/testCXXCompiler.cxx.o  -o cmTC_c8644 
+Building CXX object CMakeFiles/cmTC_08495.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_08495.dir/testCXXCompiler.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_08495
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08495.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_08495.dir/testCXXCompiler.cxx.o  -o cmTC_08495 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_98289/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_98289.dir/build.make CMakeFiles/cmTC_98289.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_033cf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_033cf.dir/build.make CMakeFiles/cmTC_033cf.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_98289
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98289.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98289 
+Building CXX object CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_033cf
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_033cf.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_033cf 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
@@ -226,23 +222,23 @@ Thread model: posix
 gcc version 4.8.5 (SUSE Linux) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98289' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98289 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_033cf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_033cf /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_98289/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_98289.dir/build.make CMakeFiles/cmTC_98289.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_033cf/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_033cf.dir/build.make CMakeFiles/cmTC_033cf.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_98289]
-  ignore line: [/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98289.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98289 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o -c /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_033cf]
+  ignore line: [/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_033cf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_033cf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
@@ -252,8 +248,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 (SUSE Linux) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98289' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98289 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_033cf' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_033cf /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -262,7 +258,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_98289] ==> ignore
+    arg [cmTC_033cf] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
@@ -272,7 +268,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
     arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
-    arg [CMakeFiles/cmTC_98289.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_033cf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -282,17 +278,13 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
   collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
-  implicit libs: [stdc++;m;c]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
   implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
   implicit fwks: []
 
@@ -302,14 +294,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1834f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1834f.dir/build.make CMakeFiles/cmTC_1834f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1e8d4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1e8d4.dir/build.make CMakeFiles/cmTC_1e8d4.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1834f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_1834f.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1834f
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1834f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_1834f.dir/feature_tests.cxx.o  -o cmTC_1834f 
+Building CXX object CMakeFiles/cmTC_1e8d4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_1e8d4.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1e8d4
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8d4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1e8d4.dir/feature_tests.cxx.o  -o cmTC_1e8d4 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
@@ -375,14 +367,14 @@ gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Compute
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9c5ed/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9c5ed.dir/build.make CMakeFiles/cmTC_9c5ed.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_d4de3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d4de3.dir/build.make CMakeFiles/cmTC_d4de3.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9c5ed.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9c5ed.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9c5ed
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c5ed.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9c5ed.dir/feature_tests.cxx.o  -o cmTC_9c5ed 
+Building CXX object CMakeFiles/cmTC_d4de3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d4de3.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d4de3
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4de3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d4de3.dir/feature_tests.cxx.o  -o cmTC_d4de3 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 
@@ -448,14 +440,14 @@ gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Compute
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_25c79/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_25c79.dir/build.make CMakeFiles/cmTC_25c79.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_1adcd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1adcd.dir/build.make CMakeFiles/cmTC_1adcd.dir/build
 gmake[1]: Entering directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_25c79.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_25c79.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_25c79
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c79.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_25c79.dir/feature_tests.cxx.o  -o cmTC_25c79 
+Building CXX object CMakeFiles/cmTC_1adcd.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_1adcd.dir/feature_tests.cxx.o -c /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1adcd
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1adcd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1adcd.dir/feature_tests.cxx.o  -o cmTC_1adcd 
 gmake[1]: Leaving directory '/home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp'
 
 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/source-files/3.cpp
+iostream
+-
+cstdlib
+-
+

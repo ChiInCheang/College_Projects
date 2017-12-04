@@ -1,4 +1,4 @@
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game
+/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/jeandsmith/Documents/College_Projects/Computer_Science_101/paper-scissor-rock-game
 -- The C compiler identification is GNU 4.8.5
 -- The CXX compiler identification is GNU 4.8.5
 -- Check for working C compiler: /usr/bin/cc

@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/main.cpp">
+		<Unit filename="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/source-files/3.cpp">
 			<Option target="Assignment_7"/>
 		</Unit>
 		<Unit filename="/home/jeandsmith/Documents/College_Projects/Computer_Science_101/Assignment_7/CMakeLists.txt">
